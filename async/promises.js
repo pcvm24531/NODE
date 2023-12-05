@@ -2,6 +2,7 @@
 Para mejorar la experiencia con callbacks, se crea una forma de trabajar con asincronia, las PROMESAS
 Las PROMESAS tienen un estado
 Lo bueno de las promesas es que se pueden anidar
+Siempre que hagamos una promesa(usemos el .then()) se debe usar un CATH para capturar algún error que pudiera ocurrir
 */
 
 function hello(name) {
@@ -20,7 +21,8 @@ function speak(name) {
         setTimeout(
             ()=>{
                 console.log('bla, bla, bla....');
-                resolve(name);
+                //resolve(name);
+                reject('Ocurrio un error!');
             },
             1000
         );
@@ -38,7 +40,14 @@ function goodBye(name) {
 console.log('Start process....');
 hello('Carlos')
     .then( speak )
+    .then( speak )
+    .then( speak )
+    .then( speak )
     .then( goodBye)
     .then( (name)=>{
         console.log('Finish process....');
-    });
+    })
+    .catch( error => {
+        console.log('Error has accurred');
+        console.log(error);
+    } );
