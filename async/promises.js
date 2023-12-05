@@ -1,8 +1,8 @@
 /*
 Para mejorar la experiencia con callbacks, se crea una forma de trabajar con asincronia, las PROMESAS
 Las PROMESAS tienen un estado
-Lo bueno de las promesas es que se pueden anidar
-Siempre que hagamos una promesa(usemos el .then()) se debe usar un CATH para capturar algún error que pudiera ocurrir
+Lo bueno de las promesas es que se pueden anidar a diferencia de los callbacks
+Siempre que hagamos una promesa(usemos el .then()) se debe usar un CATH para capturar algún error que pudiera ocurrir.
 */
 
 function hello(name) {
