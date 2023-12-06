@@ -42,10 +42,10 @@ async function goodbye(name) {
 async function main() {
     let name = 'Pablo'
     await hello(name);
-    speack();
-    speack();
+    await speack();
+    await speack();
     await goodbye(name);
+    console.log('Finish process...');
 }
 console.log('Start process...');
 main();
-console.log('Finish process...');
