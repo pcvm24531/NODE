@@ -1,4 +1,10 @@
-Enumerating objects: 7, done.
-Counting objects: 100% (7/7), done.
-Delta compression using up to 8 threads
-Compressing objects: 100% (4/4), done.
+total 148
+drwxr-xr-x 1 Pvargas 197121      0 Dec  6 09:02 .
+drwxr-xr-x 1 Pvargas 197121      0 Dec  1 14:56 ..
+drwxr-xr-x 1 Pvargas 197121      0 Dec  6 16:59 .git
+-rw-r--r-- 1 Pvargas 197121   1087 Dec  1 16:26 LICENSE
+-rw-r--r-- 1 Pvargas 197121   1376 Dec  4 14:34 README.md
+drwxr-xr-x 1 Pvargas 197121      0 Dec  6 09:02 async
+drwxr-xr-x 1 Pvargas 197121      0 Dec  1 15:29 conceptos
+-rw-r--r-- 1 Pvargas 197121 123791 Dec  1 15:18 image.png
+drwxr-xr-x 1 Pvargas 197121      0 Dec  7 11:55 modulos
