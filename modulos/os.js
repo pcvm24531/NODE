@@ -1,5 +1,6 @@
 /**
  * Sistema Operativo, con esta clase podemos acceder a lo que hay dentro de la maquina, al sistema operativo, ram, nucleos, tipos de archivos, etc.
+ * Este módulo nos permite acceder a cosas que son de muy bajo nivel.
  */
 
 const os = require('os');
@@ -20,7 +21,7 @@ console.log( os.cpus().length );
 //Como saber los errores del sistema
 console.log( os.constants );
 
-//Memoria libre
+//Memoria libre en bytes => freemem
 console.log( os.freemem());
 const SIZE = 1024;
 const kb = (bytes)=>{return bytes/SIZE}
@@ -29,3 +30,12 @@ const gb = (bytes)=>{return mb(bytes)/SIZE}
 console.log( kb(os.freemem()) );
 console.log( mb(os.freemem()) );
 console.log( gb(os.freemem()) );
+
+//Directorio raiz del usuario
+console.log( os.homedir() );
+//Directorios temporales
+console.log( os.tmpdir() );
+//El hostname
+console.log( os.hostname() );
+//Interfaz de red
+console.log( os.networkInterfaces() );
