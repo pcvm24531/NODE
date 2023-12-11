@@ -1,5 +1,6 @@
 /**
- * Procesos, Aprenderemos a acceder a nuestro proceso, escuchar señales y hacer cosas con ellos
+ * Procesos, Aprenderemos a acceder a nuestro proceso, escuchar señales y hacer cosas con ellos.
+ * escuchar eventos, etc.
  */
 
 //const p = require('process');//
@@ -21,6 +22,7 @@ process.on( 'beforeExit', ()=>{
 process.on('uncaughtException',(err,origen)=>{
     console.error('Olvidamos capturar un error');
     console.error(err.message);
+    console.log(origen);
 });
 
 funciones();
