@@ -24,5 +24,7 @@ AL ser monohilo, si ocurre lgún error, esto parará todo el proceso. Es necesar
     4.- ~$ pm2 logs => Muestra todos los logs que se van generando.
     5.- ~$ pm2 stop Nro.Proceso o id => Detiene el proceso en ejecución.
 
+### NPM
 
+NPM es un gestor de paquetes, nos permite tener paquetes para todo.
 
