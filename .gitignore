@@ -1,4 +1,4 @@
 build
 .txt
 ./node_modules
-./paquetes/useful/node_modules
+./paquetes/useful/node_modules/*
