@@ -24,4 +24,3 @@ bcrypt.hash(password, 5, (err, hash)=>{
         throw error.message;
     }
 }); //
-
