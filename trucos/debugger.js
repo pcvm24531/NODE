@@ -1,5 +1,6 @@
 /**
  * Para ejecutar con el debugger debemos usar el siguiente comando
+ * Este debbuger de node nos permite hacer un debug en tiempo real
  * 
  * $ node --inspect ruta/file.js
  */
@@ -20,4 +21,4 @@ function router(request, response) {
             break;
     }
 }
-
+console.log('Escuchando http en el puerto 3000');
