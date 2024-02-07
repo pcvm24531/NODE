@@ -1,3 +1,5 @@
+
+
 const fs = require('node:fs');
 
 const stats = fs.statSync('./fileSystem/archivo.txt');
