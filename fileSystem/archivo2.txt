@@ -1,11 +1,1 @@
-TypeError [ERR_INVALID_ARG_TYPE]: The "cb" argument must be of type function. Received type string ('utf-8')
-    at maybeCallback (node:fs:180:3)
-    at Object.readFile (node:fs:371:14)
-    at Object.<anonymous> (F:\Proyectos\develop\NODE\fileSystem\index.js:12:17)
-    at Module._compile (node:internal/modules/cjs/loader:1376:14)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
-    at Module.load (node:internal/modules/cjs/loader:1207:32)
-    at Module._load (node:internal/modules/cjs/loader:1023:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
-    at node:internal/main/run_main_module:28:49 {
-  code: 'ERR_INVALID_ARG_TYPE'
+Si tenemos que hacer múltiples inserciones o necesitamos insertar elementos manteniendo intacta la estructura existente (o los listeners de eventos asociados), estaría bien disponer de formas en las que podamos indicar exactamente donde queremos añadir el elemento, de forma más controlada. Y eso es lo que vamos a ver en este artículo.
