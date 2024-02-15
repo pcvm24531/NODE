@@ -2,7 +2,7 @@
 const fs = require('node:fs');
 
 console.log('Reading the firsth file');
-fs.readFile('./fileSystem/archivo.txt', 'utf-8', (err, text)=>{
+fs.readFile('./fileSystem/archivo.txt', 'utf-8', (err, text)=>{//En los callback siempre el primer parámetro es el error
     console.log('This first file-->', text);
 });
 

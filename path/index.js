@@ -1,6 +1,6 @@
 const path = require('node:path');
 
-//Barra separadora de carpetas según SO
+//Identificamos la Barra separadora de carpetas según SO
 console.log(path.sep);//Devuelve el / o \ dependiendo del SO
 
 //Unir rutas con path.join
