@@ -2,3 +2,4 @@ build
 .txt
 ./node_modules
 ./paquetes/useful/node_modules/*
+./npm/node_modules/*
