@@ -1,10 +1,10 @@
 const assert = require('node:assert/strict');
 
-//assert.deepEqual( [[[1,2,3]],4,5 ], [[[1,2,3]],4,5 ] );
-
+const marcas = ['toyota','nissan'];
+const marcas1 = ['toyota','nissan'];
 try {
-    assert.strictEqual([[[1, 2, 3]], 4, 5], [[[1, 2, '3']], 4, 5]);
+    //compare = assert.deepEqual(marcas, marcas1);
+    assert.strictEqual(marcas, marcas1);
 } catch (error) {
-    assert(error instanceof assert.AssertionError);
-    assert.strictEqual( error.message, message );
+    console.log( error.message );
 }
